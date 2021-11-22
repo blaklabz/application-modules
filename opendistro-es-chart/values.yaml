@@ -81,7 +81,7 @@ kibana:
     ## Set to true to enable ingress record generation
     enabled: true
     annotations: {}
-    #  kubernetes.io/ingress.class: nginx
+      kubernetes.io/ingress.class: nginx
     #  kubernetes.io/tls-acme: "true"
     labels: {}
     path: /
