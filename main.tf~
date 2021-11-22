@@ -17,7 +17,7 @@ module "opendistro" {
     chart_opendistro      = "${var.chart_opendistro}"
 }
 
-module "logstash" {
+#module "logstash" {
     source              = "./logstash"
     chart_logstash      = "${var.chart_logstash}"
 }
