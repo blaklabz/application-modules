@@ -199,7 +199,7 @@ exporter:
       successThreshold: 1
 
 elasticsearch:
-  host: opendistro-es-client-service
+  host: opendistro-opendistro-es-client-service
   port: 9200
   username: "admin"
   password: "admin"
@@ -284,7 +284,7 @@ outputs:
 
 
       elasticsearch {
-        hosts => ["https://opendistro-es-client-service:9200"]
+        hosts => ["https://opendistro-opendistro-es-client-service:9200"]
         index => "logstash-%{+YYYY.MM.dd}"
         ssl => true
         ssl_certificate_verification => false
